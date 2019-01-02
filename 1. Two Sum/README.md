@@ -15,7 +15,7 @@ return [0, 1].
 
 # 思路：
 
-建立一个哈希表，key是 target- num， value是num的index。因为需要对整个list进行遍历，建立哈希表，所以空间复杂度为O(n)，而哈希表的查询时间为$O(1)$，所以对整个list遍历的空间复杂度为O(n)。
+建立一个哈希表，key是 target- num， value是num的index。因为需要对整个list进行遍历，建立哈希表，所以空间复杂度为$O(n)$，而哈希表的查询时间为$O(1)$，所以对整个list遍历的空间复杂度为$O(n)$。
 
 # 解题：
 
