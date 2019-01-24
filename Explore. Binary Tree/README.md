@@ -645,7 +645,7 @@ Given the below binary tree and `sum = 22`,
 
 return true, as there exist a root-to-leaf path `5->4->11->2` which sum is 22.
 
-**思路** ：从下往上对每个路径进行累加求和，直到root，如果某条路径在累加过程中超过了当前的和，那么当前路径就被cut掉。
+**思路** ：从上往下对每个路径进行累加求和，直到root，如果某条路径在累加过程中超过了当前的和，那么当前路径就被cut掉。
 
 
 

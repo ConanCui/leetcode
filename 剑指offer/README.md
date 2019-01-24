@@ -110,5 +110,12 @@ class Solution:
 
 面试题31 (p168): 栈的压入、弹出序列 （举例子，找出规律，用一个辅助栈来模拟）
 
-面试题32 (p171): 从上到下打印二叉树 (使用队列容器来对树遍历，之字形打印需要两个stack)
+面试题32 (p171): [ 从上到下打印二叉树 ](https://www.nowcoder.com/practice/91b69814117f4e8097390d107d2efbe0?tpId=13&tqId=11212&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)(使用队列容器来对树遍历，之字形打印需要两个stack)
 
+![1547177876683](C:\Users\kncue\AppData\Roaming\Typora\typora-user-images\1547177876683.png)
+
+面试题33：二叉搜索树的后序遍历序列（递归解法，后序遍历的特点是root在尾，并且root值大于左子树节点值，大于右子树节点值）
+
+面试题34：二叉树中和为某一值的路径（要求打印出来路径，可以用递归完成前序遍历）
+
+![1547182122211](C:\Users\kncue\AppData\Roaming\Typora\typora-user-images\1547182122211.png)
